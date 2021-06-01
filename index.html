@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning Jquery</title>
+    <title>Consulte seu CEP - Totalmente Gratís para todo Brasil!</title>
+    <link rel="shortcut icon" href="./img/HatchfulExport-All/favicon.png" type="image/x-icon">
     <script src="./js/jquery3.6.0.js" defer></script>
     <script src="./js/main.js" defer></script>
     <link rel="stylesheet" href="./css/style.css">
-    
+    <link rel="stylesheet" href="./bootstrap-5-0-1-dist/css/bootstrap.min.css">
 </head>
 <body>
-    <form method="#" action="#" class="form-consult">
-
-        <label for="cep-consult">Consulte seu Cep:</label>
-        <br>
-        <input type="text" id="cep-consult" placeholder="Digite seu cep" maxlength="8">
+    <nav class="navbar navbar-dark bg-dark">
         
-    </form>
+        <div class="container-fluid">
 
-    <button type="submit" class="btn-consult">Consulta</button>
+            <a href="index.html"> <img class="img-logo" src="./img/logo_redimensionado.png" alt="Logo consultandoCep - Consulte Cep Gratís para todo Brasil" ></a>
 
-    <h1 class="resposta">
-    </h1>
+            <form method="#" action="#" class="form-consult d-flex">
+        
+                <label for="cep-consult">Consulte seu Cep:</label>
+                <br>
+                <input  type="search" id="cep-consult" class="form-control me-2 style-input" aria-label="Search" placeholder="Digite seu cep" maxlength="8">
+
+                <input class="btn btn-primary btn-consult style-input" type="submit" value="Consultar">
+
+            </form>
+        </div>         
+    </nav>    
+
+    <h3 class="resposta">    
+    </h3>
     
 </body>
 </html>
